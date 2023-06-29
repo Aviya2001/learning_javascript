@@ -54,3 +54,14 @@
 // console.log(students);
 // console.log(extrastudents);
 
+/* Oparattor Precedence 
+    1. Paranthesis ()
+    2. Exponents
+    3. Multiplication & division 
+    4. Addition & subtraction 
+*/
+
+let result = 1 + 2 * (3 +4);
+let result2 = (1 + 2) * (3 +4);
+console.log(result);
+console.log(result2);

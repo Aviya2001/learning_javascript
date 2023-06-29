@@ -140,16 +140,33 @@
 
 // Hypotenus Of a trangle By prompt input 
 
-let sideA; 
-let sideB; 
-let sideC; 
+// let sideA; 
+// let sideB; 
+// let sideC; 
 
-sideA=window.prompt("Enter Length Of Side A in cm = ", sideA); 
-sideA=Number(sideA);
+// sideA=window.prompt("Enter Length Of Side A in cm = ", sideA); 
+// sideA=Number(sideA);
 
-sideB=window.prompt("Enter Length Of Side B in cm = ", sideB);
-sideB=Number(sideB);
+// sideB=window.prompt("Enter Length Of Side B in cm = ", sideB);
+// sideB=Number(sideB);
 
-sideC=Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+// sideC=Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
 
-console.log("Side C length in cm is = ", sideC);
+// console.log("Side C length in cm is = ", sideC);
+
+// Hypotenus Of a trangle By Html Input 
+
+let sideA;
+let sideB;
+let sideC;
+
+document.getElementById("submitbtn").onclick = function(){
+    sideA= document.getElementById("textA").value;
+    sideA=Number(sideA);
+    sideB= document.getElementById("textB").value;
+    sideB=Number(sideB);
+    sideC=Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+
+    document.getElementById("sideC"). innerHTML = "Side C =" + sideC;
+    console.log("Your Answer Is ",sideC);
+}

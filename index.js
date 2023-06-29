@@ -100,4 +100,16 @@
 // console.log(y, typeof y);
 
 
+// const = constant is a variable that cant be change 
 
+// without consttant 
+const pi= 3.14159;
+let radius;
+let circumference; 
+
+radius=window.prompt("Enter Radius Of the Circle "); // string type input 
+radius=Number(radius); // Convert to Number Type 
+// pi=100;
+
+circumference = 2 * pi * radius;
+console.log("Circumference Of the Circle is = ", circumference);

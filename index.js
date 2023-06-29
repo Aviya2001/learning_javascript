@@ -74,9 +74,30 @@
 
 //Hard way Html textBox 
 
-let username;
-document.getElementById("Mybutton").onclick =function(){
-    username= document.getElementById("Mytext").value;
-    console.log(username);
-    document.getElementById("Mylable").innerHTML = "Hello " +username;
-}
+// let username;
+// document.getElementById("Mybutton").onclick =function(){
+//     username= document.getElementById("Mytext").value;
+//     console.log(username);
+//     document.getElementById("Mylable").innerHTML = "Hello " +username;
+// }
+
+/* Type Convertion = Change data type of a value to another (String, Numbers, Booleans) */
+// issue 
+
+// let age =window.prompt("How Old Are You");
+// age=Number(age);
+// age += 1; 
+// console.log("your age is ",age); // its on string data type input = 31 but output 311
+
+// let x;
+// let y;
+// let z;
+
+// x=Number("3.1");
+// y=String(3.45
+// );
+// console.log(x, typeof x);
+// console.log(y, typeof y);
+
+
+

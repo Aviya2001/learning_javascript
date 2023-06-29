@@ -102,14 +102,37 @@
 
 // const = constant is a variable that cant be change 
 
-// without consttant 
-const pi= 3.14159;
-let radius;
-let circumference; 
+// // without consttant 
+// const pi= 3.14159;
+// let radius;
+// let circumference; 
 
-radius=window.prompt("Enter Radius Of the Circle "); // string type input 
-radius=Number(radius); // Convert to Number Type 
-// pi=100;
+// radius=window.prompt("Enter Radius Of the Circle "); // string type input 
+// radius=Number(radius); // Convert to Number Type 
+// // pi=100;
 
-circumference = 2 * pi * radius;
-console.log("Circumference Of the Circle is = ", circumference);
+// circumference = 2 * pi * radius;
+// console.log("Circumference Of the Circle is = ", circumference);
+
+// Math Function - Inbult mathamatical functions in js 
+
+let x=2.99;
+let y=5;
+let z=9;
+
+let max;
+let min;
+
+
+// x= Math.round(x) // Rounded the number as it is 
+// x= Math.floor(x);  // Rounded Down 
+// x=Math.ceil(x); // Rounded Up 
+// x=Math.pow(x, 3); // pow is to power of a number 
+// x=Math.sqrt(x); // Squre Root Of  a number 
+// max=Math.max(x,y,z);
+// min=Math.min(x,y,z);
+
+console.log(x); 
+console.log(max);
+console.log(min);
+

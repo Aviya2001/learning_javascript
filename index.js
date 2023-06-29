@@ -116,12 +116,12 @@
 
 // Math Function - Inbult mathamatical functions in js 
 
-let x=2.99;
-let y=5;
-let z=9;
+// let x=2.99;
+// let y=5;
+// let z=9;
 
-let max;
-let min;
+// let max;
+// let min;
 
 
 // x= Math.round(x) // Rounded the number as it is 
@@ -132,7 +132,24 @@ let min;
 // max=Math.max(x,y,z);
 // min=Math.min(x,y,z);
 
-console.log(x); 
-console.log(max);
-console.log(min);
+// console.log(x); 
+// console.log(max);
+// console.log(min);
 
+
+
+// Hypotenus Of a trangle By prompt input 
+
+let sideA; 
+let sideB; 
+let sideC; 
+
+sideA=window.prompt("Enter Length Of Side A in cm = ", sideA); 
+sideA=Number(sideA);
+
+sideB=window.prompt("Enter Length Of Side B in cm = ", sideB);
+sideB=Number(sideB);
+
+sideC=Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+
+console.log("Side C length in cm is = ", sideC);

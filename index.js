@@ -61,7 +61,22 @@
     4. Addition & subtraction 
 */
 
-let result = 1 + 2 * (3 +4);
-let result2 = (1 + 2) * (3 +4);
-console.log(result);
-console.log(result2);
+// let result = 1 + 2 * (3 +4);
+// let result2 = (1 + 2) * (3 +4);
+// console.log(result);
+// console.log(result2);
+
+/* USER INPUTS */
+
+// Easy Way with Windows Prompt 
+// let username = window.prompt("What Is Your Name?");
+// console.log(username);
+
+//Hard way Html textBox 
+
+let username;
+document.getElementById("Mybutton").onclick =function(){
+    username= document.getElementById("Mytext").value;
+    console.log(username);
+    document.getElementById("Mylable").innerHTML = "Hello " +username;
+}

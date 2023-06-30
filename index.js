@@ -156,17 +156,18 @@
 
 // Hypotenus Of a trangle By Html Input 
 
-let sideA;
-let sideB;
-let sideC;
+// let sideA;
+// let sideB;
+// let sideC;
 
-document.getElementById("submitbtn").onclick = function(){
-    sideA= document.getElementById("textA").value;
-    sideA=Number(sideA);
-    sideB= document.getElementById("textB").value;
-    sideB=Number(sideB);
-    sideC=Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+// document.getElementById("submitbtn").onclick = function(){
+//     sideA= document.getElementById("textA").value;
+//     sideA=Number(sideA);
+//     sideB= document.getElementById("textB").value;
+//     sideB=Number(sideB);
+//     sideC=Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
 
-    document.getElementById("sideC"). innerHTML = "Side C =" + sideC;
-    console.log("Your Answer Is ",sideC);
-}
+//     document.getElementById("sideC"). innerHTML = "Side C =" + sideC;
+//     console.log("Your Answer Is ",sideC);
+// }
+

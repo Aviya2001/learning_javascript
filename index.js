@@ -171,3 +171,29 @@
 //     console.log("Your Answer Is ",sideC);
 // }
 
+
+// // If Statements = a basic form of decision making if a condition is true, then do something 
+// // if not, then dont do it 
+
+// let age = 112; 
+
+// if(age>=18){
+//     console.log("You Are An Adult");
+// }
+// else if(age<0){
+//     console.log("Wrong Data");
+// }
+// else if(age>60){
+//     console.log["You Are old"]
+// }
+// else{
+//     console.log("You Are a Child")
+// }
+
+// let online=false;
+// if(online){
+//     console.log("You Are Online");
+// }
+// else{
+//     console.log("You are OFline")
+// }

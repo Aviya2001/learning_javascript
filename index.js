@@ -368,17 +368,84 @@ true --> lkase  and false --> True */
 
 //return = returns a value back to the place where you invokeed a function 
 
-let area; 
-let width;
-let higeht;
+// let area; 
+// let width;
+// let higeht;
 
-width=window.prompt("Enter Width of a Rectrangel");
-higeht=window.prompt("Enter Width of a Rectrangel");
+// width=window.prompt("Enter Width of a Rectrangel");
+// higeht=window.prompt("Enter Width of a Rectrangel");
 
-area=getarea(width,higeht);
-console.log("Area =", area)
+// area=getarea(width,higeht);
+// console.log("Area =", area)
 
-function getarea(width, higeht){
-    let result = width * higeht;
-    return result;
-} 
+// function getarea(width, higeht){
+//     let result = width * higeht;
+//     return result;
+// } 
+
+/** Ternary Oparator = Shortcut for and if else statemnts 
+ *              take 3 operands
+ *              1.  a Condition with?
+ *              2. expression if true:
+ *              3. expression if false
+ * condition? exprIfTrue : exprIfFalse
+ */
+
+//functions with if else 
+
+// let adult = checkAge(11);
+// console.log(adult);
+
+// function checkAge(age){
+//     if(age>=18)
+//     {
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// let adult = checkAge(32);
+// console.log(adult);
+
+// function checkAge(age){
+//     return age>=18? true: false; //condition? exprIfTrue : exprIfFalse
+// }
+
+// checkWinner(false);
+
+// function checkWinner(win){
+//     win ? console.log("You Win"): console.log("You Lose");
+// }
+
+
+/** Variable scope = Where a variable is accessible  
+ * let = variables are limited to block scope {}
+ * var = varables are limited to function (){}
+*/
+
+//toLocaleString() = Returns a string with a language sensitive reprasentation of thei snumber 
+
+//    number.tolocaleString(locale, {Options});
+
+// locale = specific languages 
+// options = objects with formating oparations 
+
+// let mynum = 12;
+// // mynum = mynum.toLocaleString("en-US"); //us English 
+// // mynum = mynum.toLocaleString("hi-IN"); //Hindi
+
+// //with options (currency)
+// // mynum = mynum.toLocaleString("hi-IN", {style: "currency", currency:"USD"}); //Us English With $
+// // mynum = mynum.toLocaleString("hi-IN", {style: "currency", currency:"INR"}); //Us English With $
+
+
+// //with options (presentage)
+// // mynum = mynum.toLocaleString(undefined, {style: "percent"});
+
+// //with options (Unit celcius)
+// mynum = mynum.toLocaleString(undefined, {style: "unit", unit: "celsius"});
+
+
+// console.log(mynum)
+

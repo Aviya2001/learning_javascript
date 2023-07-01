@@ -198,34 +198,62 @@
 //     console.log("You are OFline")
 // }
 
-document.getElementById("Mybutton").onclick = function(){
+// document.getElementById("Mybutton").onclick = function(){
 
-    const visa=document.getElementById("visabtn");
-    const master=document.getElementById("masterbtn");
-    const paypal=document.getElementById("paypalbtn");
+//     const visa=document.getElementById("visabtn");
+//     const master=document.getElementById("masterbtn");
+//     const paypal=document.getElementById("paypalbtn");
 
 
-    //For Check Box 
-    if(document.getElementById("mycheckbox").checked){
-        console.log("You Are Subscribe ")
-    }
-    else{
-        console.log("You Are NOT Subscribe ")
-    }
-    //For Radio Buttions    
+//     //For Check Box 
+//     if(document.getElementById("mycheckbox").checked){
+//         console.log("You Are Subscribe ")
+//     }
+//     else{
+//         console.log("You Are NOT Subscribe ")
+//     }
+//     //For Radio Buttions    
 
-    if(visa.checked){
-        console.log("Your Payment Is VISA");
-    }
-    else if(master.checked){
-        console.log("Your Payment Is MasterCard");
-    }
-    else if(paypal.checked){
-        console.log("Your Payment Is Paypal");
-    }
-    else{
-        console.log("You Must Select Payment Method");
-    }
+//     if(visa.checked){
+//         console.log("Your Payment Is VISA");
+//     }
+//     else if(master.checked){
+//         console.log("Your Payment Is MasterCard");
+//     }
+//     else if(paypal.checked){
+//         console.log("Your Payment Is Paypal");
+//     }
+//     else{
+//         console.log("You Must Select Payment Method");
+//     }
 
+// }
+
+//Switch -  Statement that exam a value for a match against many case
+//          claises. More efficient than that many "Else if " Statement 
+
+
+document.getElementById("gradebtn").onclick = function(){
+    grade=document.getElementById("grade").value;
+    switch (grade){
+        case "A":
+            console.log("You Did Great");
+            break;
+        case "B":
+            console.log("You did Good ");
+            break;
+        case "C":
+            console.log("You Did Passed");
+            break;
+        case "S":
+            console.log("You did passed Bairly. ");
+            break;
+        case "F":
+            console.log("You are Fail ");
+            break;
+        default:
+            console.log(grade, "is not a Graded Letter ");
+            break;
+
+    }
 }
-

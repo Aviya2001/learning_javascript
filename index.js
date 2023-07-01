@@ -233,27 +233,152 @@
 //          claises. More efficient than that many "Else if " Statement 
 
 
-document.getElementById("gradebtn").onclick = function(){
-    grade=document.getElementById("grade").value;
-    switch (grade){
-        case "A":
-            console.log("You Did Great");
-            break;
-        case "B":
-            console.log("You did Good ");
-            break;
-        case "C":
-            console.log("You Did Passed");
-            break;
-        case "S":
-            console.log("You did passed Bairly. ");
-            break;
-        case "F":
-            console.log("You are Fail ");
-            break;
-        default:
-            console.log(grade, "is not a Graded Letter ");
-            break;
+// document.getElementById("gradebtn").onclick = function(){
+//     grade=document.getElementById("grade").value;
+//     switch (grade){
+//         case "A":
+//             console.log("You Did Great");
+//             break;
+//         case "B":
+//             console.log("You did Good ");
+//             break;
+//         case "C":
+//             console.log("You Did Passed");
+//             break;
+//         case "S":
+//             console.log("You did passed Bairly. ");
+//             break;
+//         case "F":
+//             console.log("You are Fail ");
+//             break;
+//         default:
+//             console.log(grade, "is not a Graded Letter ");
+//             break;
 
-    }
-}
+//     }
+// }
+
+//LOgiocal Oparators = gives us the ability to check morethan 1 condition concurrently 
+//                      && AND (Both Conditions Must BE true )
+//                        || OR (Either condition can be true)
+
+// let temp =50;
+// let sunny = true;
+// // if (temp > 0 && temp <30){
+// //     console.log("Tthe weather is Good");
+// // }
+// // else{
+// //     console.log("Weather is Not goood ")
+// // }
+
+// if (temp > 0 || temp <30 && sunny){
+//     console.log("Weather is Not goood ")
+   
+// }
+// else{
+//     console.log("Tthe weather is Good");
+// }
+
+/* ! NOt Logoical Oparator - 
+Tipicaly used to revised a condition's boolean value 
+true --> lkase  and false --> True */
+
+
+// let temp= 15;
+
+// if(!(temp>0)){
+//     console.log("It is Cold Outside")
+// }
+// else{
+//     console.log("It is Hot Outside")
+// }
+
+
+
+/*While Loop =  Repeat Some Code, ehile some conditions is true
+                potentially infinite */
+
+// let username = "";
+
+// while(username == ""){
+//     username = window.prompt("Enter Your Name");
+// }
+// console.log(username, "Hello");
+
+//for loop - repeat some code a certan amount of time 
+// for(i=1; i<=10; i+=1 ){
+//     console.log(i);
+// }
+
+//break = breaks out of a loop entirely  i==13 prints 1-12
+// continue = Skip an itaration of a loop  i==13 print without 13
+
+// for(let i=1; i<=15; i+=1){
+//     if(i==13){
+//         // break;
+//         continue;
+//     }
+//     console.log(i)
+// }
+
+
+// Nested Loop - a loop inside of another loop 
+
+// for(i=1; i<=2; i+=1 ){
+//     for(j=1; j<=2; j+=1 ){
+//         console.log(i);
+// }
+// }
+
+//Function = Difine Code Once, and use it many times 
+//            to perform some code, call the function name 
+
+// let ussername= "Avishka";   // Global variables 
+// let age =22;
+
+// function happyBirthday(){
+//     console.log("Happy Birthday To you...");
+//     console.log("Happy Birthday To you...");
+//     console.log("Happy Birthday Dear" , ussername);
+//     console.log("Happy Birthday To you...");
+//     console.log("You Are Now", age, "Years OLD");
+// }
+
+// happyBirthday();
+// happyBirthday();
+// happyBirthday();
+
+
+// function startProgram(){
+//     let ussername= "Avishka";
+//     let age =22;    
+//     happyBirthday(ussername,age); //arguments
+    
+// }
+// startProgram();
+
+
+// function happyBirthday(ussername,age){ //parameters 
+//     console.log("Happy Birthday To you...");
+//     console.log("Happy Birthday To you...");
+//     console.log("Happy Birthday Dear" , ussername);
+//     console.log("Happy Birthday To you...");
+//     console.log("You Are Now", age, "Years OLD");
+// }
+
+//return = returns a value back to the place where you invokeed a function 
+
+let area; 
+let width;
+let higeht;
+
+width=window.prompt("Enter Width of a Rectrangel");
+higeht=window.prompt("Enter Width of a Rectrangel");
+
+area=getarea(width,higeht);
+console.log("Area =", area)
+
+function getarea(width, higeht){
+    let result = width * higeht;
+    return result;
+} 

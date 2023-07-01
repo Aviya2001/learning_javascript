@@ -197,3 +197,35 @@
 // else{
 //     console.log("You are OFline")
 // }
+
+document.getElementById("Mybutton").onclick = function(){
+
+    const visa=document.getElementById("visabtn");
+    const master=document.getElementById("masterbtn");
+    const paypal=document.getElementById("paypalbtn");
+
+
+    //For Check Box 
+    if(document.getElementById("mycheckbox").checked){
+        console.log("You Are Subscribe ")
+    }
+    else{
+        console.log("You Are NOT Subscribe ")
+    }
+    //For Radio Buttions    
+
+    if(visa.checked){
+        console.log("Your Payment Is VISA");
+    }
+    else if(master.checked){
+        console.log("Your Payment Is MasterCard");
+    }
+    else if(paypal.checked){
+        console.log("Your Payment Is Paypal");
+    }
+    else{
+        console.log("You Must Select Payment Method");
+    }
+
+}
+

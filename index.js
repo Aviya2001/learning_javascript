@@ -449,3 +449,52 @@ true --> lkase  and false --> True */
 
 // console.log(mynum)
 
+
+// Array = think of it as variable that can store multiple values 
+
+// let fruits =["apple", "orrange", "mango"];
+
+// // fruits[1]="coconut"; // Update array 
+
+// // fruits.push("Lemon"); // Add elements to array 
+// // fruits.pop(); //remove last element 
+// // fruits.unshift("Banana"); // Add elements to bigining 
+// // fruits.shift(); // Remove begining element 
+
+// let length = fruits.length; //length of an array 
+// let index = fruits.indexOf("orrange"); // index of element 
+
+
+// console.log(index); 
+// console.log(fruits); 
+// console.log(length); 
+
+
+
+// standerd for loop to access array
+
+// let prices = [5,10,15,20,25];
+
+// for(i=0; i<price.length; i+=1){
+//     console.log(price[i])
+// }
+
+// for up statement 
+
+// for (let price of prices){
+//     console.log(price)
+// }
+
+
+//sort array of strings in jS
+
+// let arrFruits=["banana", "apple", "mango", "papaya"];
+
+// // arrFruits= arrFruits.sort(); // sort as alphabetical  order
+// // arrFruits= arrFruits.sort().reverse(); // sort as alphabetical  order  but reverse 
+
+// for(let fruit of arrFruits){
+//     console.log(fruit);
+// }
+
+
